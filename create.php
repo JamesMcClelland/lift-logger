@@ -5,9 +5,12 @@ global $db;
 
 if (isset($_POST['posted'])) {
     //Try the login
-    $maxId = $db->query('SELECT MAX(user_id) as id FROM users')->fetch(PDO::FETCH_ASSOC);
+    $maxId = $db->query('SELECT MAX(user_id) as user_id FROM users')->fetch(PDO::FETCH_ASSOC);
     $prep = $db->prepare('INSERT INTO users (user_id, username, password) VALUES (:id, :username, :password)');
-    $id = $maxId['user_id'] + 1;
+    $id = 1;
+    if ($maxId) {
+        $id = $maxId['user_id'] + 1;
+    }
     if ($prep->execute([
         'id' => $id,
         'username' => $_POST['username'],

@@ -1,0 +1,17 @@
+version: "3"
+services:
+  liftlogger:
+    deploy:
+      replicas: 1
+      update_config:
+        parallelism: 1
+    container_name: liftlogger
+    ports:
+      - 9010:9010
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    image: "localhost:5000/liftlogger:latest"
+    restart: always
+    volumes:
+      - /home/deployment/docker/liftlogger/weightlogger.sqlite:/app/weightlogger.sqlite

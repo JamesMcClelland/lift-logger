@@ -7,7 +7,7 @@ $exercises = json_decode(file_get_contents('exercises.json'));
 $exercises = $exercises->days;
 
 if (!isset($_SESSION['user']) || !isset($_SESSION['user']['user_id'])) {
-    echo "<h2>Not logged in pal</h2><br /><a href='/'>Home</a>";
+    echo "<h2>Not logged in pal</h2><br /><a href='/home.php'>Home</a>";
     exit();
 }
 

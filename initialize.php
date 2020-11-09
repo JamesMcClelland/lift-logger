@@ -14,9 +14,15 @@ SQL;
 $db->exec($sql);
 
 $sql = <<<SQL
+DROP TABLE exercise
+SQL;
+
+var_dump($db->exec($sql));
+
+$sql = <<<SQL
 CREATE TABLE IF NOT EXISTS exercise (
-    user_id INTEGER PRIMARY KEY,
-    exercise_id TEXT,
+    user_id INTEGER NOT NULL,
+    exercise_id TEXT NOT NULL,
     weight  INTEGER NOT NULL,
     date_time TEXT
 )
