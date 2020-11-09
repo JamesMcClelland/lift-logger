@@ -1,0 +1,121 @@
+{
+  "days" : [
+    {
+      "exercises" : [
+      {
+        "name": "Dumbbell Squat",
+        "sets": 3,
+        "reps": 10
+      },
+      {
+        "name" : "Dumbbell Stiff Legged Deadlift",
+        "sets" : 3,
+        "reps" : 10
+        },
+      {
+        "name": "Bent Over Dumbbell Row",
+        "sets": 3,
+        "reps": 10
+      },
+      {
+        "name": "Dumbbell Bench Press",
+        "sets": 3,
+        "reps": 10
+      },
+      {
+        "name": "Lateral Raises",
+        "sets": 2,
+        "reps": 8
+      },
+      {
+        "name": "Standing Dumbbell Curl",
+        "sets": 2,
+        "reps": 8
+      },
+      {
+        "name": "Lying Dumbbell Extension",
+        "sets": 2,
+        "reps": 8
+      }
+      ]
+    },
+    {
+      "exercises" : [
+        {
+          "name": "Dumbbell Lunge",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name" : "Dumbbell Hamstring Curl",
+          "sets" : 3,
+          "reps" : 10
+        },
+        {
+          "name" : "Dumbbell Deadlift",
+          "sets" : 3,
+          "reps" : 10
+        },
+        {
+          "name": "Dumbbell Military Press",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name": "Dumbbell Flys",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name": "Hammer Curl",
+          "sets": 2,
+          "reps": 8
+        },
+        {
+          "name": "Seated Dumbbell Extension",
+          "sets": 2,
+          "reps": 8
+        }
+      ]
+    },
+    {
+      "exercises" : [
+        {
+          "name": "Dumbbell Step Up",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name" : "Dumbbell Stiff Legged Deadlift",
+          "sets" : 3,
+          "reps" : 10
+        },
+        {
+          "name" : "One Arm Dumbbell Row",
+          "sets" : 3,
+          "reps" : 10
+        },
+        {
+          "name": "Reverse Grip Dumbbell Press",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name": "Dumbbell Rear Delt Fly",
+          "sets": 3,
+          "reps": 10
+        },
+        {
+          "name": "Zottman Curl",
+          "sets": 2,
+          "reps": 8
+        },
+        {
+          "name": "Close Grip Dumbbell Press",
+          "sets": 2,
+          "reps": 8
+        }
+      ]
+    }
+  ]
+}
